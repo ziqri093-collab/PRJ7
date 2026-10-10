@@ -1,0 +1,13 @@
+num_people = int(input("Enter number of people = "))
+car_fee = float(input("Enter car rental fee = "))
+Acc_fee = float(input("Enter accomodation fee = "))
+meal_price = float(input("Enter meal price = "))
+
+
+total = (car_fee + Acc_fee) + (meal_price*num_people)
+cost_per = total/num_people
+print()
+
+print (f"The grand total cost is RM {total}")
+print()
+print("The cost per person is RM",cost_per)
